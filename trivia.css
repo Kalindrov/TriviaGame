@@ -49,6 +49,10 @@ p {
 
 #correct, #wrong, #results, #timeout {
 	display: none;
+	color: lightblue;
+	font-size: 30px;
+	font-weight: 500;
+
 }
 
 

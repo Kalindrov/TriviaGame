@@ -1,10 +1,10 @@
             var question0 = {
                 question: "When did the ABA get merged with the NBA?",
-                first: "1975",
+                first: "1976",
                 second: '1982',
                 third: '1956',
                 fourth: '1967',
-                correctAnswer: '1975'
+                correctAnswer: '1976'
             };
 
             var question1 = {
@@ -18,34 +18,79 @@
 
             var question2 = {
                 question: "When did the NBA get formed?",
-                first: '1975',
-                second: '1982',
-                third: '1956',
-                fourth: '1967',
-                correctAnswer: '1956'
+                first: '1972',
+                second: '1960',
+                third: '1957',
+                fourth: '1946',
+                correctAnswer: '1946'
             };
 
 
             var question3 = {
                 question: "When did the Boston Celtics win their first championship?",
-                first: '1975',
-                second: '1982',
-                third: '1956',
+                first: '1961',
+                second: '1957',
+                third: '1963',
                 fourth: '1967',
-                correctAnswer: '1982'
+                correctAnswer: '1957'
             };
 
             var question4 = {
-                question: "Who was the first coach of the USA Dream Team?",
-                first: '1975',
-                second: '1982',
-                third: '1956',
-                fourth: '1967',
-                correctAnswer: '1956'
+                question: "Prior to moving to Memphis, what city was home to the Grizzlies?",
+                first: 'Washington D.C.',
+                second: 'Minnesota',
+                third: 'Chicago',
+                fourth: 'Vancouver',
+                correctAnswer: 'Vancouver'
+            };
+
+            var question5 = {
+                question: "Which player has the most NBA championship rings?",
+                first: 'Robert Horry',
+                second: 'Bill Russell',
+                third: 'Michael Jordan',
+                fourth: 'Bob Cousey',
+                correctAnswer: 'Bill Russell'
+            };
+
+            var question6 = {
+                question: "What was the highest single game point total scored by a single player?",
+                first: '79',
+                second: '100',
+                third: '97',
+                fourth: '82',
+                correctAnswer: '100'
+            };
+
+            var question7 = {
+                question: "Who was the first head coach of the USA Dream Team?",
+                first: 'Lenny Wilkens',
+                second: 'P.J. Carlesimo',
+                third: 'Mike Krzyzewski',
+                fourth: 'Chuck Daly',
+                correctAnswer: 'Chuck Daly'
+            };
+
+            var question8 = {
+                question: "Who is the tallest player to ever play in the NBA?",
+                first: "Shaquille O'Neal",
+                second: 'Shawn Bradley',
+                third: 'Manute Bol',
+                fourth: 'Yao Ming',
+                correctAnswer: 'Manute Bol'
+            };
+
+            var question9 = {
+                question: "Who is the shortest player to ever play in the NBA?",
+                first: 'James Jones',
+                second: 'Brandon Roy',
+                third: 'Isiah Thomas',
+                fourth: 'Muggsy Bogues',
+                correctAnswer: 'Muggsy Bogues'
             };
 
 
-            var list = [question0, question1, question2, question3, question4];
+            var list = [question0, question1, question2, question3, question4, question5, question6, question7, question8, question9];
             var numCorrect = 0;
             var numWrong = 0;
             var currentQuestion = 0;
