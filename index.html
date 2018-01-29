@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="trivia.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    
+</head>
+<body>
+	<h1 id="title">NBA QUIZ CHALLENGE</h1>
+	<section class="stage">
+		<div id="start-block">
+			<button id="start">START</button>
+		</div>
+		<div id="question-block">
+				<div id="contents">
+					<div id="label">Time Remaining</div>
+					<div id="clock"> </div>
+					<div id="question">Question</div>
+					<br>
+					<button id="first">Answer 1</button>
+					<br>
+					<button id="second">Answer 2</button>
+			    	<br>
+					<button id="third">Answer 3</button>
+					<br>
+					<button id="fourth">Answer 4</button>
+				</div>
+			<br>
+			<br>
+				<div id="correct">Congrats!</div>
+				<div id="wrong">
+					<p id="wrong-text">You got it incorrect.</p>
+					<p id="correct-text">The correct answer was</p>
+					<p id="correct-answer"></p>
+				</div>
+				<div id="timeout">
+					<p id="wrong-text">You ran out of time!</p>
+					<p id="correct-text">The correct answer was</p>
+					<p id="correct-answer2"></p>
+				</div>
+				<div id="results">
+					<p id="count-correct"></p>
+					<p id="count-wrong"></p>
+					<button id="restart">RESTART</button>
+				</div>
+		</div>
+
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="trivia.js" type="text/javascript"></script>
+</body>
+</html>
