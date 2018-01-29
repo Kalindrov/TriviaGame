@@ -55,6 +55,13 @@ p {
 
 }
 
+#first, #second, #third, #fourth {
+	border-radius: 20px;
+	background: red;
+	color: white;
+	font-size: 24px;
+}
+
 
 #start-block {
 
@@ -63,4 +70,22 @@ p {
 #title {
 	text-align: center;
 	color: red;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+#start, #restart {
+	text-align: center;
+	background: white;
+	border-radius: 20px;
+	color: black;
+	width: 300px;
+	height: 60px;
+	font-size: 28px;
+	font-weight: 500;
+}
+
+#results, #wrong, #correct, #timeout {
+	font-size: 28px;
+	font-weight: 500;
 }
