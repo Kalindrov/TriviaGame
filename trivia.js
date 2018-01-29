@@ -49,7 +49,7 @@
             var numCorrect = 0;
             var numWrong = 0;
             var currentQuestion = 0;
-            var seconds = 10;
+            var seconds = 60;
             var timer = null;
             var pause = 2000;
 
@@ -61,8 +61,11 @@
             if (currentQuestion >= list.length) {
             showResults();
                 } else {
-                    seconds = 10;
+                    seconds = 60;
                     showQuestion(currentQuestion);
+                    clearInterval(timer);
+                    $('#clock').text(seconds);
+                    timer = setInterval(gameTimer, 1000);
                 }
             }
 
@@ -78,6 +81,10 @@
                 numWrong = 0;
                 timer = null;
                 showQuestion(currentQuestion);
+                clearInterval(timer);
+                $('#clock').text(seconds);
+                timer = setInterval(gameTimer, 1000);
+
             }
 
             function showResults () {
@@ -132,8 +139,6 @@
 
             function showQuestion(index) {
                 if (index >= 0 && index < list.length){
-
-                // $("#question").html(list[index].question);
                 document.getElementById("question").innerHTML = list[index].question;
                 document.getElementById("first").innerHTML = list[index].first;
                 document.getElementById("second").innerHTML = list[index].second;

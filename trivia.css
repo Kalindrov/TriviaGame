@@ -1,5 +1,23 @@
-body {
-	margin: 0 auto;
+.background {
+	background-image: url("assets/images/background.jpg");
+}
+
+#contents {
+	color: white;
+	font-size: 26px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.breaker {
+	border: 2px solid white;
+}
+
+#label {
+	color: red;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
 }
 
 .stage {
